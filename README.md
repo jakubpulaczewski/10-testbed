@@ -16,3 +16,5 @@ The performance of a 10-armed testbed was measured to re-implement the results p
 
 The first graph shows the increase in expected reward with increased experience (the number of steps) over time. Initially, the greedy method (𝜀 = 0) has improved at a slightly faster rate compared to other methods but with more experience, its performance declined as it has not performed any exploration but only exploiting the sub-optimal actions. The exploration of sub-optimal actions has caused the greedy method to be stuck in a "deadlock" as its performance hasn’t improved and its
 appearance resembles that of a straight line compared to the other two methods. The appearance of the 𝜀-greedy methods is similar to the logarithmic shape.
+
+![](Images/Figure1.png)
